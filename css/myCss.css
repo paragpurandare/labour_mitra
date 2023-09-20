@@ -1,0 +1,51 @@
+#imgId
+{
+    overflow: hidden;
+}
+
+#labourContainer
+{
+    -webkit-box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 10px 0px rgba(0,0,0,0.75);
+    margin: 30px;
+    transition: .3s;
+}
+
+#labourContainer:hover
+{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+#labDetails
+{
+    padding-top: 30px;
+    /* background-color: '#eeeee'; */
+}
+
+#labRow
+{
+    display: inline-flex;
+    margin-left: 120px;
+    width: 100%;
+}
+
+#txtBox
+{
+    width: 500px!important;
+}
+
+#logoTxt
+{
+    font-size: 27px;
+    margin-left: 25px;
+    transition: .3s;
+    margin-top:12px;
+}
+
+#logoTxt:hover
+{
+    cursor: pointer;
+    color: blue;
+}
